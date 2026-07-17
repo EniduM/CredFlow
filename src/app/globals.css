@@ -2,10 +2,10 @@
 
 @theme inline {
   --color-background: #FAFBFC;
-  --color-foreground: #111827;
-  --color-primary: #111827;
-  --color-blue: #2563EB;
-  --color-green: #10B981;
+  --color-foreground: #0F1B30;
+  --color-primary: #0F1B30;
+  --color-blue: #2ED9C3;
+  --color-green: #1DBBA6;
   --color-gray: #6B7280;
   --color-border: #E5E7EB;
   --color-card: #ffffff;
@@ -26,8 +26,8 @@ body {
 }
 
 ::selection {
-  background: #2563EB;
-  color: white;
+  background: #2ED9C3;
+  color: #0F1B30;
 }
 
 @keyframes float {
@@ -36,8 +36,8 @@ body {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.1); }
-  50% { box-shadow: 0 0 0 12px rgba(37, 99, 235, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(46, 217, 195, 0.1); }
+  50% { box-shadow: 0 0 0 12px rgba(46, 217, 195, 0); }
 }
 
 @keyframes draw-line {

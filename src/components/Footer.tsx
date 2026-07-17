@@ -29,9 +29,11 @@ export default function Footer() {
         >
           <div className="sm:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-6 h-6 bg-foreground rounded-lg flex items-center justify-center">
-                <span className="text-background font-bold text-[10px]">C</span>
-              </div>
+              <img
+                src="https://res.cloudinary.com/dp7in4ulw/image/upload/v1784272552/CredFlow_Logo_c8gjhz.png"
+                alt="CredFlow"
+                className="h-9 w-auto object-contain drop-shadow-sm rounded-lg"
+              />
               <span className="font-semibold text-base text-foreground">CredFlow</span>
             </div>
             <p className="text-sm text-gray leading-relaxed max-w-xs">

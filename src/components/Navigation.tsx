@@ -35,10 +35,12 @@ export default function Navigation() {
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 sm:h-18 items-center justify-between">
-          <a href="#" className="flex items-center gap-2 group">
-            <div className="w-7 h-7 bg-foreground rounded-lg flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-              <span className="text-background font-bold text-xs">C</span>
-            </div>
+          <a href="#" className="flex items-center gap-2.5 group">
+            <img
+              src="https://res.cloudinary.com/dp7in4ulw/image/upload/v1784272552/CredFlow_Logo_c8gjhz.png"
+              alt="CredFlow"
+              className="h-10 w-auto object-contain drop-shadow-sm rounded-lg transition-all duration-300 group-hover:scale-105 group-hover:drop-shadow-md"
+            />
             <span className="font-semibold text-lg tracking-tight text-foreground">
               CredFlow
             </span>
