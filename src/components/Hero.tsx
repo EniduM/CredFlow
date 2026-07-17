@@ -60,7 +60,7 @@ function HeroDashboard() {
             <p className="text-xs text-gray font-medium">Trust Score</p>
             <div className="relative inline-flex items-center justify-center mt-1">
               <svg width="56" height="56" viewBox="0 0 56 56">
-                <circle cx="28" cy="28" r="24" fill="none" stroke="#E5E7EB" strokeWidth="4" className="dark:stroke-[#2a2a2a]" />
+                <circle cx="28" cy="28" r="24" fill="none" stroke="#E5E7EB" strokeWidth="4" />
                 <motion.circle
                   cx="28" cy="28" r="24" fill="none" stroke="#2563EB" strokeWidth="4"
                   strokeLinecap="round"

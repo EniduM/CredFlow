@@ -13,17 +13,6 @@
   --font-mono: "SF Mono", "Fira Code", monospace;
 }
 
-.dark {
-  --color-background: #0A0A0A;
-  --color-foreground: #F9FAFB;
-  --color-primary: #F9FAFB;
-  --color-blue: #3B82F6;
-  --color-green: #34D399;
-  --color-gray: #9CA3AF;
-  --color-border: #1F1F1F;
-  --color-card: #141414;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -38,11 +27,6 @@ body {
 
 ::selection {
   background: #2563EB;
-  color: white;
-}
-
-.dark ::selection {
-  background: #3B82F6;
   color: white;
 }
 

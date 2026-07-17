@@ -14,7 +14,7 @@ const steps = [
 
 export default function Solution() {
   return (
-    <section id="how-it-works" className="py-20 sm:py-28 bg-border/30 dark:bg-border/10">
+    <section id="how-it-works" className="py-20 sm:py-28 bg-border/30">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

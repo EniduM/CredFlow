@@ -174,7 +174,7 @@ export default function Dashboard() {
                           whileInView={{ height: `${height}%` }}
                           viewport={{ once: true }}
                           transition={{ duration: 0.6, delay: 0.2 + i * 0.08, ease: [0.16, 1, 0.3, 1] }}
-                          className="flex-1 bg-blue/10 dark:bg-blue/20 rounded-t-lg relative group cursor-pointer hover:bg-blue/20 dark:hover:bg-blue/30 transition-colors duration-200"
+                          className="flex-1 bg-blue/10 rounded-t-lg relative group cursor-pointer hover:bg-blue/20 transition-colors duration-200"
                           style={{ height: `${height}%` }}
                         >
                           <div className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 bg-foreground text-background text-xs font-medium px-2 py-1 rounded-md whitespace-nowrap">
