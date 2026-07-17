@@ -83,7 +83,7 @@ export default function Dashboard() {
                   <Wallet size={14} className="text-blue" />
                   <span className="text-xs text-gray font-medium">Monthly Income</span>
                 </div>
-                <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[2px]">$12,430</span></p>
+                <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[4px]">$12,430</span></p>
                 <div className="flex items-center gap-1 mt-1.5">
                   <ArrowUp size={12} className="text-green" />
                   <span className="text-xs text-green font-medium">23% vs last month</span>
@@ -102,7 +102,7 @@ export default function Dashboard() {
                   <span className="text-xs text-gray font-medium">Trust Score</span>
                 </div>
                 <div className="flex items-baseline gap-2">
-                  <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[2px]">78</span></p>
+                  <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[4px]">78</span></p>
                   <span className="text-xs font-medium text-green">/100</span>
                 </div>
                 <div className="mt-2 h-1.5 bg-border rounded-full overflow-hidden">
@@ -128,7 +128,7 @@ export default function Dashboard() {
                   <Users size={14} className="text-gray" />
                   <span className="text-xs text-gray font-medium">Verified Clients</span>
                 </div>
-                <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[2px]">47</span></p>
+                <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[4px]">47</span></p>
                 <div className="flex items-center gap-1 mt-1.5">
                   <ArrowUp size={12} className="text-green" />
                   <span className="text-xs text-green font-medium">+12 this month</span>
@@ -146,7 +146,7 @@ export default function Dashboard() {
                   <ShieldCheck size={14} className="text-gray" />
                   <span className="text-xs text-gray font-medium">Bank Readiness</span>
                 </div>
-                <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[2px]">82%</span></p>
+                <p className="text-2xl sm:text-3xl font-semibold text-foreground"><span className="blur-[4px]">82%</span></p>
                 <div className="mt-2 h-1.5 bg-border rounded-full overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}

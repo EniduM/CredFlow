@@ -50,10 +50,10 @@ function HeroDashboard() {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="text-2xl font-semibold text-foreground mt-1"
             >
-              <span className="blur-[2px]">$12,430</span>
+              <span className="blur-[4px]">$12,430</span>
             </motion.p>
             <span className="inline-flex items-center gap-1 text-xs text-green font-medium mt-1">
-              <span className="text-xs">↑</span> <span className="blur-[2px]">23%</span> vs last month
+              <span className="text-xs">↑</span> <span className="blur-[4px]">23%</span> vs last month
             </span>
           </div>
           <div className="text-right">
@@ -71,7 +71,7 @@ function HeroDashboard() {
                   transform="rotate(-90 28 28)"
                 />
               </svg>
-              <span className="absolute text-sm font-bold text-foreground blur-[2px]">78</span>
+              <span className="absolute text-sm font-bold text-foreground blur-[4px]">78</span>
             </div>
             <p className="text-xs text-green font-medium mt-0.5">Excellent</p>
           </div>
@@ -80,7 +80,7 @@ function HeroDashboard() {
         <div className="mb-3">
           <div className="flex justify-between text-xs text-gray mb-1.5">
             <span>Income Trend</span>
-            <span className="blur-[2px]">+$2,840</span>
+            <span className="blur-[4px]">+$2,840</span>
           </div>
           <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} className="w-full">
             <motion.path
@@ -114,7 +114,7 @@ function HeroDashboard() {
                 <span className="text-xs text-gray">{item.label}</span>
               </div>
               <div className="text-right">
-                <span className="text-xs font-medium text-foreground blur-[2px]">{item.value}</span>
+                <span className="text-xs font-medium text-foreground blur-[4px]">{item.value}</span>
                 <span className="text-xs text-gray ml-2">{item.time}</span>
               </div>
             </motion.div>
@@ -184,17 +184,17 @@ export default function Hero() {
 
             <div className="flex items-center gap-6 mt-10 pt-8 border-t border-border">
               <div>
-                <p className="text-2xl font-semibold text-foreground"><span className="blur-[2px]">$47B+</span></p>
+                <p className="text-2xl font-semibold text-foreground"><span className="blur-[4px]">$47B+</span></p>
                 <p className="text-xs text-gray">Freelance market in South Asia</p>
               </div>
               <div className="w-px h-10 bg-border" />
               <div>
-                <p className="text-2xl font-semibold text-foreground"><span className="blur-[2px]">15M+</span></p>
+                <p className="text-2xl font-semibold text-foreground"><span className="blur-[4px]">15M+</span></p>
                 <p className="text-xs text-gray">Freelancers underserved</p>
               </div>
               <div className="w-px h-10 bg-border" />
               <div>
-                <p className="text-2xl font-semibold text-foreground"><span className="blur-[2px]">87%</span></p>
+                <p className="text-2xl font-semibold text-foreground"><span className="blur-[4px]">87%</span></p>
                 <p className="text-xs text-gray">Face loan rejection</p>
               </div>
             </div>
